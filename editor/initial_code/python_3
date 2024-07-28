@@ -1,1 +1,12 @@
-{{CODIGO INICIAL}}
+def contagem_lucro(precos):
+    # Seu código aqui
+    return None
+
+print("Example:")
+print(contagem_lucro([7, 1, 5, 3, 6, 4]))
+
+# As funções assert são utilizadas para verificar se o resultado da função chamada é o esperado
+assert contagem_lucro([7, 1, 5, 3, 6, 4]) == 5
+assert contagem_lucro([7, 6, 4, 3, 1]) == 0
+
+print("Seu código passou pelos testes, clique em Check para avançar!")
